@@ -22,12 +22,9 @@ function Navbar() {
       <ul className = {clicked ? "nav-menu clicked" : "nav-menu"} >
         <li onClick={() => setClicked(!clicked)}>
           <Link to='/'> Home </Link>
-        </li>
+        </li> 
         <li onClick={() => setClicked(!clicked)}>
-          <Link to='/project'> Project </Link>
-        </li>
-        <li onClick={() => setClicked(!clicked)}>
-          <Link to='/about'> About </Link>
+          <Link to='/project'> Projects </Link>
         </li>
         <li onClick={() => setClicked(!clicked)}>
           <Link to='/contact'> Contact </Link>
