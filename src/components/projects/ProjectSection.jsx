@@ -1,6 +1,11 @@
 import React from 'react'
 import './projectStyles.css'
 import { Link } from 'react-router-dom'
+import captureImage from '../../assets/Capture.svg';
+import fullstackImage from '../../assets/fullstack.svg';
+import portfolioImage from '../../assets/create-responsive-websites-using-html-css-javascript-react.svg';
+import reactLogo from '../../assets/react-logo.svg';
+
 
 function ProjectSection() {
   return (
@@ -11,7 +16,7 @@ function ProjectSection() {
     <div className='grid-content'>
       <div className="box">
         <div className="img-section">
-        <img class="image" src="../../../src/assets/Capture.PNG" alt=""/>
+        <img className="image" src={captureImage} alt=""/>
         </div>
         <div className='detail-section'>
           <span>TMUber App</span>
@@ -22,17 +27,17 @@ function ProjectSection() {
 
       <div className="box">
         <div className="img-section">
-        <img class="image" src="../../../src/assets/fullstack.PNG" alt=""/>
+        <img className="image" src={fullstackImage} alt=""/>
         </div>
         <div className='detail-section'>
           <span>Fullstack Auth Project</span>
-          <Link to = 'https://github.com/meemelias/FullStack_AuthProject'> See Details </Link>
+          <Link to = 'https://github.com/meemelias/FullStack_AuthProject  '> See Details </Link>
         </div>
       </div>
 
       <div className="box">
         <div className="img-section">
-        <img class="image" src="../../../src/assets/create-responsive-websites-using-html-css-javascript-react.jpeg" alt=""/>
+        <img className="image" src={portfolioImage} alt=""/>
         </div>
         <div className='detail-section'>
           <span>Personal Portfolio Project</span>
@@ -42,7 +47,7 @@ function ProjectSection() {
 
       <div className="box">
         <div className="img-section">
-        <img class="image" src="../../../src/assets/react-logo.png" alt=""/>
+        <img className="image" src={reactLogo} alt=""/>
         </div>
         <div className='detail-section'>
           <span>React Recipe App</span>

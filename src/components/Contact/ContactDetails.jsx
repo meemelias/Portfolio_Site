@@ -35,15 +35,15 @@ function ContactDetails
 
     return (
 
-        <div class="container">
-            <div class="section1">
+        <div className="container">
+            <div className="section1">
                 <div className="contact-title">
                     <h1>Get in touch</h1>
                     <img src={theme_pattern} alt="" />
                 </div>
             </div>
-            <div class="section2">
-                <div class="inner1">
+            <div className="section2">
+                <div className="inner1">
                     <div className="inner1content">
                         <h1>About me</h1>
                         <p>  I am currenly looking for an internship in software/techonology position. <br /> Over the summer, I was able learn
@@ -62,7 +62,7 @@ function ContactDetails
                     </div>
 
                 </div>
-                <div class="inner2">
+                <div className="inner2">
                     <div className="inner2content">
                         <form className='contact-form' onSubmit={onSubmit} action="">
 
