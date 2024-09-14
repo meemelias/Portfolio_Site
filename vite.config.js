@@ -10,3 +10,4 @@ export default defineConfig({
   
 })
 
+// .github/workflows/deploy.yml
