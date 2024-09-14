@@ -26,7 +26,7 @@ function ProjectSection() {
         </div>
         <div className='detail-section'>
           <span>Fullstack Auth Project</span>
-          <Link> See Details </Link>
+          <Link to = 'https://github.com/meemelias/FullStack_AuthProject'> See Details </Link>
         </div>
       </div>
 
